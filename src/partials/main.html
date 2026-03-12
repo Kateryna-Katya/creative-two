@@ -345,36 +345,41 @@
                 </div>
             </div>
 
-            <div class="form-card reveal delay-1">
-                <form id="lead-form" class="lead-form">
-                    <label class="field">
-                        <span>Твоё имя</span>
-                        <input type="text" name="name" placeholder="Введи имя" required />
-                    </label>
+<div class="form-card reveal delay-1">
+    <form id="lead-form" class="lead-form">
+        <label class="field">
+            <span>Твоё имя</span>
+            <input type="text" name="firstName" placeholder="Введи имя" required />
+        </label>
 
-                    <label class="field">
-                        <span>Телефон / Telegram</span>
-                        <input type="text" name="contact" placeholder="Введи контакт" required />
-                    </label>
+        <label class="field">
+            <span>Твоя фамилия</span>
+            <input type="text" name="lastName" placeholder="Введи фамилию" required />
+        </label>
 
-                    <label class="field">
-                        <span>Email</span>
-                        <input type="email" name="email" placeholder="Введи email" />
-                    </label>
+        <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" placeholder="Введи email" required />
+        </label>
 
-                    <button class="comic-btn comic-btn-primary btn-full pulse-btn" type="submit">
-                        Хочу начать
-                    </button>
+        <label class="field">
+            <span>Телефон</span>
+            <input id="phone" type="tel" name="phone" placeholder="Введи телефон" required />
+        </label>
 
-                    <p class="form-note">
-                        Нажимая на кнопку, ты соглашаешься на обработку данных.
-                    </p>
+        <button class="comic-btn comic-btn-primary btn-full pulse-btn" type="submit">
+            Хочу начать
+        </button>
 
-                    <p id="success-message" class="success-message" hidden>
-                        Спасибо! Твоя заявка отправлена.
-                    </p>
-                </form>
-            </div>
+        <p class="form-note">
+            Нажимая на кнопку, ты соглашаешься на обработку данных.
+        </p>
+
+        <p id="success-message" class="success-message" hidden>
+            Спасибо! Твоя заявка отправлена.
+        </p>
+    </form>
+</div>
         </div>
     </div>
 </section>

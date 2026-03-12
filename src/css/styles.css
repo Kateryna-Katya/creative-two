@@ -854,3 +854,87 @@ input {
     padding: 22px;
   }
 }
+/* контейнер */
+.iti {
+  width: 100%;
+}
+
+/* input телефона */
+.iti input {
+  width: 100%;
+  height: 54px;
+  padding-left: 100px;
+  border: 3px solid #222;
+  border-radius: 16px;
+  background: #fff;
+  font-size: 16px;
+  color: #222;
+  outline: none;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+/* фокус */
+.iti input:focus {
+  box-shadow: 4px 4px 0 #222;
+  transform: translate(-1px, -1px);
+}
+
+/* кнопка флага */
+.iti__selected-country {
+  border-radius: 16px 0 0 16px;
+  padding-left: 12px;
+}
+
+/* стрелка */
+.iti__arrow {
+  border-top-color: #222;
+}
+
+/* выпадающий список */
+.iti__dropdown-content {
+  border: 3px solid #222;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 6px 6px 0 #222;
+  margin-top: 8px;
+}
+
+/* строка страны */
+.iti__country {
+  padding: 10px 14px;
+  font-size: 15px;
+  color: #222;
+  transition: background .15s ease;
+}
+
+/* hover */
+.iti__country:hover {
+  background: #ffe16b;
+}
+
+/* выбранная страна */
+.iti__country.iti__highlight {
+  background: #ffd54a;
+}
+
+/* код страны */
+.iti__dial-code {
+  color: #555;
+}
+
+/* поиск */
+.iti__search-input {
+  border-bottom: 2px solid #222;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+/* scrollbar */
+.iti__dropdown-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.iti__dropdown-content::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 4px;
+}
